@@ -1,0 +1,14 @@
+---
+layout: post
+title: "New Start"
+date: 2013-02-07 10:29
+comments: true
+categories: [personal,]
+---
+
+## 又是一次重新开博客
+第一次是因为使用的朋友的空间，到期了也懒得迁移，就没了。那个时候是使用的wordpress.
+第二次已经使用Github+markdown来写了，但是其实也是稀里糊涂的用。但是那时有的时候用PC,一会windows,一会fedora,后来也懒得弄了
+这是第三次，呵呵，刚刚换了RMBP,又开始折腾了
+
+其实很明白，现在的大脑已经完全不够用了，需要有一个东西来记录一些东西。。。

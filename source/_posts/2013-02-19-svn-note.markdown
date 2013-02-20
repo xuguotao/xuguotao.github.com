@@ -1,0 +1,11 @@
+---
+layout: post
+title: "svn note"
+date: 2013-02-19 10:15
+comments: true
+categories: [work, svn]
+---
+1. svn create branch
+{% codeblock %}
+svn cp  -m "创建一个分支" svn://localhost/java/drp/trunk/     svn://localhost/java/drp/branches/debugDrp1.0
+{% endcodeblock%}
