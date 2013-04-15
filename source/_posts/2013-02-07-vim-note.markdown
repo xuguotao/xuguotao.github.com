@@ -6,6 +6,10 @@ comments: true
 categories: [vim,]
 ---
 
+#### 一些命令 2013-04-01
++ g/pattern/d 是找到pattern, 删之
++ v/pattern/d 是找到非pattern,删之
+<!--more-->
 #### 一些命令
 ```
 x 删除当前光标所在的字符
@@ -16,6 +20,16 @@ gg 移动到文件的第一行
 G 移动到文件最后一行
 1234G 移动第1234行
 50% 移动到50%处
+
+<strong>copy and paste</strong>
+yy: copy 光标所在的行
+nyy: copy n line
+yw: copy 光标所在的单词
+nyw: copy 光标所在的单词到其后的n个单子。不一定是同一行
+y$: copy 光标所在的位置到行尾
+ny$: copy 光标所在的位置之后的N行，包括当前行
+p: paste 光标所在位置之右
+P: paste 光标所在位置之左
 ```
 #### 关于代码折叠的问题
 + fdm(foldmethod)
