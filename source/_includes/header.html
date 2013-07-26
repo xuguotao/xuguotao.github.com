@@ -1,14 +1,1 @@
-<div class="profilepic">
-	{% if site.logo %}
-		<img src='{{ site.logo }}' alt='My Son-yoyo' style='width: 160px;' />
-	{% endif %}
-</div>
-<h1><a href="{{ root_url }}/">{{ site.title }}</a></h1>
-<p class="subtitle">{{ site.subtitle }}</p>
-<nav id="sub-nav">
-	<ul id="categories" style="list-style-type: none">
-		{% category_list %}
-	</ul>
-</nav>
-<nav id="main-nav">{% include navigation.html %}</nav>
-
+{% include custom/header.html %}

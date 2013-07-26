@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Vim Note"
+title: "Vim 操作笔记"
 date: 2013-02-07 10:30
 comments: true
 categories: [vim,]
@@ -9,6 +9,8 @@ categories: [vim,]
 #### 一些命令 2013-04-01
 + g/pattern/d 是找到pattern, 删之
 + v/pattern/d 是找到非pattern,删之
++ :%s/four/4/g 把全部的four替换成4.`%`表示表示所有行中执行匹配。`g`表示替换行中的所有的匹配点。如果仅仅是对当前行进行替换，去掉`%`即可。
+
 <!--more-->
 #### 一些命令
 ```
